@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Caro Game Simple</h3>
+<p id="carogame"></p>
+<script>
+    var b = document.getElementById("carogame");
+
+    var board = [];
+    var data = "";
+    for(var i = 0; i < 5; i++) {
+        board[i] = new Array(".",".",".",".",".");
+    }
+
+    for(var i = 0; i < 5; i++) {
+        data += "<br/>";
+        for(var j = 0; j < 5; j++){
+            data += board[i][j] + "&nbsp;&nbsp;";
+        }
+    }
+    document.getElementById('carogame').innerHTML = data;
+
+        function x() {
+            var positionX = prompt("X: ");
+            var positionY = prompt("Y: ");
+            data = "";
+            board[positionX][positionY] = "x";
+            for(var i = 0; i < 5; i++) {
+                data += "<br/>";
+                for(var j = 0; j < 5; j++){
+                    data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+                    document.getElementById('carogame').innerHTML = '<hr>' + data
+                }
+            }
+        }
+        function o() {
+            var positionX = prompt("X: ");
+            var positionY = prompt("Y: ");
+            data = "";
+            board[positionX][positionY] = "o";
+            for(var i = 0; i < 5; i++) {
+                data += "<br/>";
+                for(var j = 0; j < 5; j++){
+                    data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+                    document.getElementById('carogame').innerHTML = '<hr>' + data
+                }
+            }
+        }
+    function show(x, y, z) {
+        var x = $(x),
+            y = $(y),
+            z = $(z);
+        x.addClass('win');
+        y.addClass('win');
+        z.addClass('win');
+        lockAll();
+        setTimeout(reset, 1500);
+    }
+</script>
+<button value="x" onclick="x()">x</button>
+<button value="o" onclick="o()">o</button>
+</body>
+</html>

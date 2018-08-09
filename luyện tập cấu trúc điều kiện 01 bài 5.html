@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var x = prompt("nhập điểm ");
+    var y = prompt("nhập điểm");
+    var i = prompt("nhập điểm ");
+    var diem;
+    diem = (x + y +i) / 3;
+    if(diem > 7){
+        document.write('giỏi');
+    }else{
+        if(diem <= 7 && diem > 5.5){
+            document.write(' trung bình');
+        }else{
+            if(diem >= 5.5 && diem < 7 ){
+                document.write('Loai C');
+            }else{
+                if(diem >= 7 && diem < 8.5){
+                    document.write('Loại B');
+                }else {
+                    if(diem >= 8.5 && diem <= 10){
+                        document.write('Loai A');
+                    }else{
+                        document.write('Điểm không hợp lệ');
+                    }
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
