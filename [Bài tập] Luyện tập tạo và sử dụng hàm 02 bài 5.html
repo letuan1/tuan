@@ -7,18 +7,20 @@
 <body>
 <script>
     function so(x1,x2,x3) {
-        var min = so(x1)
-        if (so(x2) < min){
-            min = so(x2)
+        var min = x1;
+        if (x2 < min){
+            return min = x2;
         }
-        if (so(x3) < min){
-            min = x3
+        if (x3 < min){
+            return min = x3;
         }
         alert(min)
     }
-    var number1 = prompt("nhap");
-    var number2 = prompt("nhap");
-    var number3 = prompt("nhap");
+    var number1 = parseInt(prompt("nhap"));
+    var number2 = parseInt(prompt("nhap"));
+    var number3 = parseInt(prompt("nhap"));
+    var x = so(number1,number2,number3)
+
 </script>
 </body>
 </html>
