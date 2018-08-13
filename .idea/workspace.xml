@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c03f3106-38a3-4607-b0a6-6770644810c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 01 bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 01 bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 9.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="16" />
-          <entry key="html" value="126" />
+          <entry key="html" value="127" />
           <entry key="jpg" value="3" />
           <entry key="js" value="2" />
           <entry key="png" value="1" />
@@ -45,7 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="12" />
-          <entry key="HTML" value="98" />
+          <entry key="HTML" value="99" />
           <entry key="Image" value="4" />
           <entry key="Scratch" value="34" />
         </counts>
@@ -53,15 +53,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="952" />
-          <entry key="html" value="13332" />
-          <entry key="txt" value="10" />
+          <entry key="html" value="13374" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="952" />
-          <entry key="HTML" value="12237" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="HTML" value="12279" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="Scratch" value="1095" />
         </counts>
       </usages-collector>
@@ -74,10 +74,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 01 bài 3.html">
+        <entry file="file://$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="391">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -132,7 +132,6 @@
         <option value="$PROJECT_DIR$/làm dự án.html" />
         <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 5.html" />
         <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 8.html" />
-        <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 9.html" />
         <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02.html" />
         <option value="$PROJECT_DIR$/quản lí ứng dụng.html" />
         <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 4.html" />
@@ -145,6 +144,7 @@
         <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 01.html" />
         <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 01 bài 2.html" />
         <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 01 bài 3.html" />
+        <option value="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 9.html" />
       </list>
     </option>
   </component>
@@ -154,7 +154,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="642" />
     <option name="y" value="11" />
     <option name="width" value="723" />
@@ -209,7 +209,7 @@
       <workItem from="1533871833011" duration="18666000" />
       <workItem from="1533993325321" duration="1510000" />
       <workItem from="1534121321902" duration="8137000" />
-      <workItem from="1534148090566" duration="622000" />
+      <workItem from="1534148090566" duration="4955000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1533787867707</created>
@@ -274,14 +274,28 @@
       <option name="project" value="LOCAL" />
       <updated>1534148235318</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="số">
+      <created>1534148815679</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534148815679</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add">
+      <created>1534151252505</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534151252536</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92577000" />
+    <option name="totallyTimeSpent" value="96910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="642" y="11" width="723" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4070278" />
@@ -317,7 +331,8 @@
     </ignored-roots>
     <MESSAGE value="a" />
     <MESSAGE value="số" />
-    <option name="LAST_COMMIT_MESSAGE" value="số" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/0 (17).jpg">
@@ -567,17 +582,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 9.html">
+    <entry file="file://$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 01 bài 3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 01 bài 3.html">
+    <entry file="file://$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02 bài 9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="391">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>
