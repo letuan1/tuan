@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giatri() {
+        var count = 0;
+        var n = prompt("nhập phần tử mảng ");
+        var b = new Array(n);
+        for (i = 0 ; i < n ; i++){
+            b[i] = prompt()
+        }
+        var p = prompt("nhập 1 kí tự bất kì");
+        for (j = 0;j < n ; j++){
+            if (p == b[j]){
+                count = count + 1
+            }
+        }
+        if (p != b[j]){
+            alert("-1")
+        }
+        alert(count)
+    }
+</script>
+<button type="button" onclick="giatri()">click me</button>
+</body>
+</html>
