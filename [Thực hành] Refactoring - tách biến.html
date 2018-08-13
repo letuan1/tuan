@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var FizzBuzz = {
+        fizzBuzz: function (number) {
+            var isFizz = number % 3 == 0 ;
+            var isBuzz = number % 5 == 0 ;
+            if (isFizz && isBuzz){
+                return "FizzBuzz";
+            }
+            if (isFizz){
+                return "Fizz"
+            }
+            if (isBuzz){
+                return "Buzz";
+            }
+            return number + ""
+        }
+    }
+</script>
+</body>
+</html>
