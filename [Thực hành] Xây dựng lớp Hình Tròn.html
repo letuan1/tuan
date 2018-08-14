@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Xây dựng lớp Hình Tròn</title>
+</head>
+<body>
+<script>
+    var Ciecle = function (radius) {
+        this.getRadius = function () {
+            return radius;
+        };
+        this.getArea = function () {
+            return Math.PI * radius *radius;
+        };
+    };
+    function main() {
+        var circle = new Ciecle(2);
+        var rad = circle.getArea();
+        var area = circle.getRadius();
+        alert("radius: " + rad + "; area: " + area);
+    }
+
+</script>
+<button type="button" onclick="main()">click me</button>
+</body>
+</html>

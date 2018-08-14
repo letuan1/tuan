@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var Date = function (day, month, year) {
+        this.setDay = function (days) {
+            day = days;
+        };
+        this.getDay = function () {
+            return day
+        };
+        this.getMonth = function () {
+            return month;
+        };
+        this.getYear = function () {
+            return year
+        };
+    };
+    function display() {
+        var dates = new Date(2,2,2007);
+        var day = dates.getDay();
+        var month = dates.getMonth();
+        var year = dates.getYear();
+        alert(day + "/" + month + "/" + year);
+        dates.setDay(10);
+        day = dates.getDay()
+        alert(day + "/" + month + "/" + year);
+    }
+    main()
+</script>
+<button type="button" onclick="display()">click me</button>
+</body>
+</html>
